@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Primera parte</legend>
+            <br>
+            <textarea name="areaTexto" rows="10" cols="20" minlength="10" maxlength="10" placeholder="aqui puedes escribir"></textarea>
+            <br>
+            <button>Enviar</button>
+        </fieldset>
+        <fieldset>
+            <legend>Segunda parte</legend>
+            <label>Elige una opción</label>
+            <select name="elegir">
+                <option>opción 1</option>
+                <option>opción 2</option>
+                <option>opción 3</option>
+            </select>
+
+        </br>
+            <label>Escribe un nombre</label>
+            <input type="text" name="textoCorto" required/>
+
+        </br>
+            <label>introduce tu número de telefono</label>
+            <input type="tel" name="telefono" minlength="10" maxlength="20"/>
+
+            <br>
+            <label>introduce tu correo electronico</label>
+            <input type="email" name="correo" required/>
+
+            <br>
+            <input type="reset" value="Resetear"/>
+            <input type="submit" value="Enviar datos"/>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
